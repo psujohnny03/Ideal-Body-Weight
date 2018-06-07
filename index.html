@@ -82,8 +82,8 @@
         function alertTheUser() {
             var heigth = document.getElementById("height-input").value;
             var gender = document.getElementById("gender-input").value;
-            var usersIdeal = Math.floor((ideal(gender, heigth) * 10) / 10);
-            var pounds = Math.floor((usersIdeal * 2.2 * 10) / 10);
+            var usersIdeal = Math.floor(ideal(gender, heigth) * 10) / 10;
+            var pounds = Math.floor(usersIdeal * 2.2 * 10) / 10;
             alert(usersIdeal + " Kgs or " + pounds + " Lbs")
         }
         function ideal(gender, ht) {
